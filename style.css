@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: outfit;
+    src: url(Outfit-Bold.ttf);
+}
+
+.body {
+    background-color: rgba(31, 49, 79, 1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.parent-div {
+    background-color: #fff;
+    width: 320px;
+    height: 497px;
+    margin-top: 152px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.qr-div {
+    background-color: rgba(31, 49, 79, 1);
+    width: 288px;
+    height: 288px;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+}
+
+.text-div {
+    width: 288px;
+    height: 129px;
+    margin-top: 24px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+}
+
+.first-text {
+    width: 288px;
+    height: 56px;
+    text-align: center;
+    font-family: outfit;
+}
+
+.second-text-div{
+    width: 288px;
+    height: 56px;
+    text-align: center;
+    font-family: outfit;
+    margin-top: 20px;
+}
